@@ -1,0 +1,120 @@
+
+/* Reset de estilos padrão do navegador */
+body {
+  background-color: #ff7919;  
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #FF7B1C;
+  padding: 10px;
+  text-align: right;
+}
+
+h1{
+  color: white; 
+}
+/* Estilos da barra lateral */
+
+aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #151519;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+/* Estilos para a lista da barra lateral */
+#Barra-Lateral ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#Barra-Lateral ul li {
+  margin-top: 10px;
+}
+
+#Barra-Lateral a:hover{
+  color:#151519;
+  background-color: #868686;
+  border-radius: 10px;
+}
+
+.Menu{
+  margin-left: 25px;
+}
+.Link-Categorias{
+  margin-left: 25px;
+  margin-top: 50px;
+  
+}
+
+#Categorias{
+  margin-top: 50px;
+}
+
+/* Estilos para os links na barra lateral */
+.Barra-Menu-Link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+}
+
+/* Estilos para a barra de navegação superior */
+
+
+#Barra-Navegacao ul {
+  padding: 0;
+  margin: 0;
+}
+
+#Barra-Navegacao li {
+  display: inline;
+}
+
+#Barra-Navegacao a {
+  color: white;
+  text-decoration: none;
+  margin-right: 90px;
+    
+}
+
+#Barra-Navegacao a:hover {
+  color: #FF7B1C;
+  background-color: white;
+}
+
+.btn-contato{
+  color: white;
+  background-color: #151519;
+  border-radius: 10px;
+  font-size: 20px;
+
+}
+
+/*Estilo da Foto de Perfil*/
+
+.Perfil {
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+}
+
+.Perfil img {
+  position:center;
+  bottom: 0;
+  width: 100%;
+}
+
+/*Estilo da Barra de categorias*/
+
